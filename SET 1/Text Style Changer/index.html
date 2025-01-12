@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     
+<h1>Text Style Changer</h1>
+
+<p id="targetText">This is the target text.</p>
+
+<label for="fontSize">Font Size:</label>
+<select id="fontSize" onchange="changeStyle()">
+  <option value="12">12px</option>
+  <option value="14">14px</option>
+  <option value="16">16px</option>
+  <option value="18">18px</option>
+  <option value="20">20px</option>
+  <option value="25">25px</option>
+</select>
+
+<label for="fontColor">Font Color:</label>
+<select id="fontColor" onchange="changeStyle()">
+  <option value="black">Black</option>
+  <option value="red">Red</option>
+  <option value="blue">Blue</option>
+  <option value="green">Green</option>
+  <option value="orange">Orange</option>
+</select>
+
+<label for="fontFamily">Font Family:</label>
+<select id="fontFamily" onchange="changeStyle()">
+  <option value="sans-serif">Sans-serif</option>
+  <option value="serif">Serif</option>
+  <option value="monospace">Monospace</option>
+  <option value="cursive">Cursive</option>
+  <option value="italic"> Italic</option>
+</select>
+
+<script src="./index.js"> </script>
+
+</body>
+</html>
